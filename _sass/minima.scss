@@ -1,0 +1,571 @@
+@import "reset";
+
+// fonts
+$primaryFont: 'Open Sans', sans-serif;
+$bold: 700;
+
+// colors named with http://chir.ag/projects/name-that-color/
+$gallery: #ECECEC;
+$blueRibbon: #006EFF;
+$selectiveYellow: #FFB70D;
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+  background: #fff;
+  // @extend %vertical-rhythm;
+
+  .highlighter-rouge & {
+    background: #eef;
+  }
+
+  .c     { color: #998; font-style: italic } // Comment
+  .err   { color: #a61717; background-color: #e3d2d2 } // Error
+  .k     { font-weight: bold } // Keyword
+  .o     { font-weight: bold } // Operator
+  .cm    { color: #998; font-style: italic } // Comment.Multiline
+  .cp    { color: #999; font-weight: bold } // Comment.Preproc
+  .c1    { color: #998; font-style: italic } // Comment.Single
+  .cs    { color: #999; font-weight: bold; font-style: italic } // Comment.Special
+  .gd    { color: #000; background-color: #fdd } // Generic.Deleted
+  .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
+  .ge    { font-style: italic } // Generic.Emph
+  .gr    { color: #a00 } // Generic.Error
+  .gh    { color: #999 } // Generic.Heading
+  .gi    { color: #000; background-color: #dfd } // Generic.Inserted
+  .gi .x { color: #000; background-color: #afa } // Generic.Inserted.Specific
+  .go    { color: #888 } // Generic.Output
+  .gp    { color: #555 } // Generic.Prompt
+  .gs    { font-weight: bold } // Generic.Strong
+  .gu    { color: #aaa } // Generic.Subheading
+  .gt    { color: #a00 } // Generic.Traceback
+  .kc    { font-weight: bold } // Keyword.Constant
+  .kd    { font-weight: bold } // Keyword.Declaration
+  .kp    { font-weight: bold } // Keyword.Pseudo
+  .kr    { font-weight: bold } // Keyword.Reserved
+  .kt    { color: #458; font-weight: bold } // Keyword.Type
+  .m     { color: #099 } // Literal.Number
+  .s     { color: #d14 } // Literal.String
+  .na    { color: #008080 } // Name.Attribute
+  .nb    { color: #0086B3 } // Name.Builtin
+  .nc    { color: #458; font-weight: bold } // Name.Class
+  .no    { color: #008080 } // Name.Constant
+  .ni    { color: #800080 } // Name.Entity
+  .ne    { color: #900; font-weight: bold } // Name.Exception
+  .nf    { color: #900; font-weight: bold } // Name.Function
+  .nn    { color: #555 } // Name.Namespace
+  .nt    { color: #000080 } // Name.Tag
+  .nv    { color: #008080 } // Name.Variable
+  .ow    { font-weight: bold } // Operator.Word
+  .w     { color: #bbb } // Text.Whitespace
+  .mf    { color: #099 } // Literal.Number.Float
+  .mh    { color: #099 } // Literal.Number.Hex
+  .mi    { color: #099 } // Literal.Number.Integer
+  .mo    { color: #099 } // Literal.Number.Oct
+  .sb    { color: #d14 } // Literal.String.Backtick
+  .sc    { color: #d14 } // Literal.String.Char
+  .sd    { color: #d14 } // Literal.String.Doc
+  .s2    { color: #d14 } // Literal.String.Double
+  .se    { color: #d14 } // Literal.String.Escape
+  .sh    { color: #d14 } // Literal.String.Heredoc
+  .si    { color: #d14 } // Literal.String.Interpol
+  .sx    { color: #d14 } // Literal.String.Other
+  .sr    { color: #009926 } // Literal.String.Regex
+  .s1    { color: #d14 } // Literal.String.Single
+  .ss    { color: #990073 } // Literal.String.Symbol
+  .bp    { color: #999 } // Name.Builtin.Pseudo
+  .vc    { color: #008080 } // Name.Variable.Class
+  .vg    { color: #008080 } // Name.Variable.Global
+  .vi    { color: #008080 } // Name.Variable.Instance
+  .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: $primaryFont;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+:focus {
+  outline: 1px dotted #292929;
+}
+
+// fix ember actions on mobile safari
+[data-ember-action], a, .link {
+  cursor: pointer;
+}
+
+// YouTube responsive
+iframe {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.441em;
+  color: $selectiveYellow;
+}
+
+h2 {
+  font-size: 1.953em;
+  color: #4E4E4E;
+}
+
+h3 {
+  font-size: 1.563em;
+  color: darker(#4E4E4E, 20%);
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+small,
+.font_small {
+  font-size: 0.8em;
+}
+
+
+img {
+  width: 100%;
+}
+
+ul {
+  margin-bottom: 20px;
+  list-style: disc outside;
+}
+
+pre {
+  margin-bottom: 1.3em;
+  max-width: 100%;
+  overflow: scroll;
+
+  &:not(code) {
+    overflow-x: auto;
+    padding: .5em;
+    color: #333;
+    background: #f8f8f8
+  }
+}
+
+code,
+pre {
+  font-family: "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+li {
+  font-family: $primaryFont;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto 0 auto;
+
+  @media screen and (max-width: 900px) {
+    padding: 0 25px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
+}
+
+.blog-post {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+}
+
+.blog-show-header {
+  @extend .blog-post;
+}
+
+.blog-show-is-medium {
+  background: $gallery;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.timeline-container {
+  border-left: 3px solid $selectiveYellow;
+  margin-left: 100px;
+  position: relative;
+
+  a {
+    text-decoration: none;
+  }
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 1px;
+    border-left: 3px solid $selectiveYellow;
+    z-index: -1;
+    left: -3px;
+  }
+
+  &:before {
+    height: 145px;
+    top: -140px;
+  }
+
+  &:after {
+    bottom: -100px;
+  }
+
+  @media screen and (max-width: 900px) {
+    margin-left: 114px;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin-left: 0;
+    border: none;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.bio-container {
+  max-width: 900px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 900px) {
+    padding: 0 15px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: block;
+    margin: 40px auto 0 auto;
+  }
+}
+
+.image {
+  border: 3px solid $selectiveYellow;
+  background: white;
+  min-width: 195px;
+  max-width: 195px;
+  height: 195px;
+  border-radius: 95px;
+  margin-right: 60px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 0 auto 10px auto;
+  }
+}
+
+.bio {
+  font-family: $primaryFont;
+}
+
+.headline {
+  font-size: 20px;
+  margin-bottom: 30px;
+
+  span {
+    font-weight: $bold;
+    color: $selectiveYellow;
+  }
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
+}
+
+.timeline-container a {
+  display: block;
+  padding: 30px;
+  margin: 60px;
+  background: #F5F5F5;
+  max-width: 700px;
+  position: relative;
+  border: 1px solid rgba(0,115,255,0.00);
+  transition: all 0.3s ease;
+  color: #4E4E4E;
+  cursor: pointer;
+
+  // Trianlge style
+  &:after {
+    transition: all 0.3s ease;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 37%;
+    left: 0;
+
+    border: 1em solid black;
+    border-color: transparent transparent #F5F5F5 #F5F5F5;
+
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 1px solid rgba(0,115,255,0.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
+    background: #FCFCFC;
+    color: #000;
+
+    &:before {
+      border-right-color: #FCFCFC;
+    }
+
+    &:after {
+      border-color: transparent transparent #FCFCFC #FCFCFC;
+      box-shadow: -1px 2px 1px 0 rgba(0,115,255,0.10);
+    }
+
+    .description {
+      color: #6A6A6A;
+    }
+
+    .dot {
+      background-color: $blueRibbon;
+    }
+
+    .date {
+      opacity: 1;
+    }
+
+    .icon {
+      path {
+        fill: $selectiveYellow;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 40px 0;
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.date {
+  transition: all 0.3s ease;
+  color: #6A6A6A;
+  opacity: 0;
+  position: absolute;
+  left: -155px;
+  top: 43%;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.dot {
+  transition: all 0.3s ease;
+  top: 43%;
+  width: 23px;
+  height: 23px;
+  left: -74px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: $selectiveYellow;
+}
+
+.title {
+  font-size: 24px;
+  font-family: $primaryFont;
+  margin: 0;
+  margin-bottom: 10px;
+  max-width: 560px;
+  line-height: 33px;
+  color: #4E4E4E;
+}
+
+.icon {
+  transition: all 0.3s ease;
+  color: $selectiveYellow;
+  position: absolute;
+  top: 32px;
+  right: 25px;
+
+  svg {
+    height: 30px;
+    width: 30px;
+  }
+
+  path {
+    fill: #797979;
+  }
+
+  @media screen and (max-width: 420px) {
+    display: block;
+    position: initial;
+    text-align: center;
+  }
+}
+
+.description {
+  font-size: 16px;
+  font-family: $primaryFont;
+  margin-bottom: 10px;
+  color: #918C8C;
+  line-height: 28px;
+}
+
+.ctaIcon {
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.cta {
+  color: #006EFF;
+  font-family: $primaryFont;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px;
+}
+
+.active {
+  transition: border-bottom 100ms;
+  transition-timing-function: ease-out;
+  border-bottom: 3px solid $selectiveYellow;
+}
+
+.nav-wrapper {
+  ul {
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-right: 40px;
+    display: inline-block;
+    border-bottom: 3px solid transparent; // so the content isn't pushed down on hover
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    padding: 8px 0;
+    font-family: $primaryFont;
+    text-decoration: none;
+    font-weight: $bold;
+    color: $blueRibbon;
+
+    svg {
+      vertical-align: middle;
+
+      path {
+        fill: $blueRibbon;
+
+        &:active,
+        &:hover,
+        &:focus {
+          fill: darken($blueRibbon, 10%);
+        }
+      }
+    }
+
+
+    &:active,
+    &:hover,
+    &:focus {
+      @extend .active;
+      color: darken($blueRibbon, 10%);
+    }
+  }
+}
+
+.logo {
+  color: $blueRibbon;
+  font-size: 36px;
+  font-family: $primaryFont;
+  font-weight: $bold;
+  text-decoration: none;
+  border-bottom: 3px solid transparent; // so the content isn't pushed down on hover
+
+  &:active,
+  &:hover,
+  &:focus {
+    @extend .active;
+    color: darken($blueRibbon, 10%);
+  }
+}
