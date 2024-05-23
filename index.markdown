@@ -11,24 +11,27 @@ layout: home
       Hi, I'm <span>Robert DeLuca</span>!
     </h3>
     <p>
-      With over 12 years of software engineering under my belt, I get a real kick out of shaping
-      user experiences and streamlining developer workflows. You'll usually find me knee-deep in
-      single-page applications, soaking up the challenges and fine-tuning every detail.
+      With over a decade of experience in software engineering, I've developed a passion for
+      crafting exceptional user experiences and streamlining developer workflows. You can usually find
+      me diving into the details of single-page applications or experimenting with new technologies.
     </p>
 
     <p>
-      I'm all about web testing, too—it's like my secret sauce. Building sturdy test frameworks and
-      ensuring apps run like a dream is my jam. Oh, and you might've heard of Percy.io? I had a
-      blast there, handling customer chats and tinkering with SDKs.
+      When I'm not writing code, you might catch me geeking out over web testing – it's my favorite
+      way to ensure apps are rock-solid and performant. And yes, Percy.io was an amazing experience
+      – I loved working closely with customers to solve problems and pushing the limits of their
+      SDKs.
     </p>
 
     <p>
-      Off the clock, I'm a total tech junkie. Give me an IoT device, home automation gadgets, or talk
-      cars, and I'm in my element. Let's geek out together sometime!
+      In my free time, I'm a total tech enthusiast. Give me an IoT gadget, a home automation
+      project, or a car conversation, and I'm in my happy place! Let's grab coffee and geek out sometime!
     </p>
+
     <p>
-      When I'm not at a computer, I'm probably under a car or at the track. I'm currently competing
-      in the SCCA Spec Miata South West Division driving a 1995 NA8 Spec Miata as #20.🏎 🏁
+      When I'm not behind a screen, you can find me tinkering under the hood of my 1995 NA8 Spec
+      Miata (#20) or racing with the SCCA Spec Miata South West Division. It's an incredible
+      adrenaline rush – nothing beats the thrill of racing! 🏎 🏁
     </p>
   </div>
 </div>
