@@ -135,6 +135,7 @@ iframe {
 
 p {
   margin-bottom: 1.3em;
+  line-height: 1.7;
 }
 
 h1,
@@ -179,6 +180,14 @@ img {
 ul {
   margin-bottom: 20px;
   list-style: disc outside;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+strong {
+  font-weight: 700;
 }
 
 pre {
@@ -236,6 +245,21 @@ li {
 
 .blog-show-header {
   @extend .blog-post;
+}
+
+.post-header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  -webkit-text-stroke: 0.2px black;
+  text-stroke: 0.2px black;
+}
+
+.post-content {
+  font-size: 1.2rem;
+  margin-bottom: 100px;
 }
 
 .blog-show-is-medium {
