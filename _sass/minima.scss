@@ -183,7 +183,8 @@ ul {
   list-style: disc outside;
 
   li {
-    margin-bottom: 10px;
+    margin-top: 0.6rem;
+    margin-left: 3rem;
   }
 }
 
@@ -251,11 +252,6 @@ li {
 .post-header {
   border-bottom: 1px solid #ddd;
   margin-bottom: 20px;
-}
-
-.post-title {
-  -webkit-text-stroke: 0.2px black;
-  text-stroke: 0.2px black;
 }
 
 .post-content {
