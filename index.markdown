@@ -11,27 +11,26 @@ layout: home
       Hi, I'm <span>Robert DeLuca</span>!
     </h3>
     <p>
-      With over a decade of experience in software engineering, I've developed a passion for
-      crafting exceptional user experiences and streamlining developer workflows. You can usually find
-      me diving into the details of single-page applications or experimenting with new technologies.
+      I'm a software engineer who loves building awesome, accessible front-end experiences—web,
+      native apps, or APIs, I've done it all. I've spent time delving deep into visual testing at Percy
+      (now BrowserStack), where I created a plethora of content and supported developer communities. I
+      even contributed to helping Visa Checkout achieve WCAG 2.0 compliance, ensuring accessibility for
+      millions.
     </p>
 
     <p>
-      When I'm not writing code, you might catch me geeking out over web testing – it's my favorite
-      way to ensure apps are rock-solid and performant. And yes, Percy.io was an amazing experience
-      – I loved working closely with customers to solve problems and pushing the limits of their
-      SDKs.
+      Tech always excites me—whether it’s tinkering with IoT gadgets, experimenting with Large
+      Language Models, or building tools like my macOS app, DraftPatch.
     </p>
 
     <p>
-      In my free time, I'm a total tech enthusiast. Give me an IoT gadget, a home automation
-      project, or a car conversation, and I'm in my happy place! Let's grab coffee and geek out sometime!
+      When I step away from the keyboard, you'll find me wrenching on my 1995 NA8 Spec Miata (#20)
+      or racing it in the SCCA Spec Miata Southwest Division. Nothing beats the thrill of chasing
+      the perfect lap! 🏎️🏁
     </p>
 
     <p>
-      When I'm not behind a screen, you can find me tinkering under the hood of my 1995 NA8 Spec
-      Miata (#20) or racing with the SCCA Spec Miata South West Division. It's an incredible
-      adrenaline rush – nothing beats the thrill of racing! 🏎 🏁
+      Let's connect and geek out sometime!
     </p>
   </div>
 </div>
