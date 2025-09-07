@@ -14,7 +14,6 @@ $selectiveYellow: #FFB70D;
  */
 pre,
 code {
-
   border: 1px solid #ddd;
   border-radius: 3px;
   background-color: #eef;
@@ -510,6 +509,10 @@ li {
 .post-content {
   font-size: 1.2rem;
   margin-bottom: 100px;
+
+  img {
+    border-radius: 6px;
+  }
 }
 
 .blog-show-is-medium {
