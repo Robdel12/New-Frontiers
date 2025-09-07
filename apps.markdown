@@ -9,6 +9,14 @@ permalink: /apps/
 <div class="apps-list">
   <div class="app-card">
     <h2>
+      <a href="https://vizzly.dev" target="_blank" rel="noopener">Vizzly</a>
+    </h2>
+    <p>
+      A visual review and design-development collaboration platform for visual testing with real screenshots, team-based pricing, and built-in collaboration features.
+    </p>
+  </div>
+  <div class="app-card">
+    <h2>
       <a href="https://github.com/Robdel12/DraftPatch" target="_blank" rel="noopener">DraftPatch</a>
     </h2>
     <p>
