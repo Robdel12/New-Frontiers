@@ -17,10 +17,26 @@ permalink: /apps/
   </div>
   <div class="app-card">
     <h2>
-      <a href="https://github.com/Robdel12/DraftPatch" target="_blank" rel="noopener">DraftPatch</a>
+      <a href="https://github.com/Robdel12/OrbitDock" target="_blank" rel="noopener">OrbitDock</a>
     </h2>
     <p>
-      A macOS app using Swift to interact seamlessly with Large Language Models (LLMs) and Model Context Protocols (MCPs) directly from the desktop.
+      Mission control for AI coding agents. A native macOS app that monitors Claude Code and Codex CLI sessions from one place—live status, conversation history, usage tracking, and quick terminal access.
+    </p>
+  </div>
+  <div class="app-card">
+    <h2>
+      <a href="https://snoot.support" target="_blank" rel="noopener">Snoot</a>
+    </h2>
+    <p>
+      Real-time customer chat platform built with Phoenix LiveView. Embeddable widget, team inbox, and conversation management for support teams.
+    </p>
+  </div>
+  <div class="app-card">
+    <h2>
+      <a href="https://backchannel.run" target="_blank" rel="noopener">BackChannel</a>
+    </h2>
+    <p>
+      Self-hostable, developer-first team chat. Channels, threads, real-time messaging, and GitHub integration. Open source soon.
     </p>
   </div>
   <div class="app-card">
