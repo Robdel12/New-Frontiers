@@ -117,6 +117,17 @@ body {
   font-size: 16px;
 }
 
+.bio a {
+  color: #006eff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.bio a:hover {
+  color: #0056cc;
+}
+
 /* Timeline Section - Clean Mobile First */
 .timeline-container {
   margin: 80px 0;
@@ -830,6 +841,14 @@ body {
 
 .dark .bio p {
   color: #cbd5e1;
+}
+
+.dark .bio a {
+  color: #fbbf24;
+}
+
+.dark .bio a:hover {
+  color: #f59e0b;
 }
 
 .dark .timeline-container::before {
