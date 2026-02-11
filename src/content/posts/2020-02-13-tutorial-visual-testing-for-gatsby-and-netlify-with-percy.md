@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Tutorial: Visual testing for Gatsby and Netlify with Percy'
 date: 2020-02-13
 excerpt: ' As one of the most popular “static site” generators, the React-based Gatsby has been adopted by thousands of teams to create e-commerce websites, developer blogs, portfolios, and&nbsp;more.  Gatsby is a robust framework t...'

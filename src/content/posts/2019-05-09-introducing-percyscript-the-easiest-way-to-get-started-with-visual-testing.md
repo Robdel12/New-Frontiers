@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Introducing PercyScript: the easiest way to get started with visual testing'
 date: 2019-05-09
 excerpt: ' Introducing PercyScript: The easiest way to get started with visual&nbsp;testing  We believe that visual tests are the lowest-effort, highest-value tests you can write. Giving your team full confidence in the UI that your...'

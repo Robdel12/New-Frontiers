@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Your tests aren’t slow because of Karma (or the browser)'
 date: 2019-06-21
 excerpt: ' There’s been a trend I have been seeing around the front end world where folks are switching their test suites to use Jest over something like Karma and Mocha. Usually the main benefit that’s touted is speed&nbsp;🏎💨  What...'

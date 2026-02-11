@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Creating an Accessible Custom Checkbox'
 date: 2017-10-04
 excerpt: ' Native HTML controls work great up until you need to apply custom styling. It’s pretty difficult to style controls like selects, checkboxes, and radio buttons. That’s why people usually end up ditching the native controls...'

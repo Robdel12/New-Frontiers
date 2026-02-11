@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Announcing Percy’s GitHub Actions'
 date: 2019-12-06
 excerpt: ' We’re always looking for ways to make it easier for developers to get started with visual testing. That’s why we’re thrilled to release our new GitHub Actions on the heels of the recent general availability release.  This...'

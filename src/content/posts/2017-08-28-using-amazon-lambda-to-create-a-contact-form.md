@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Using Amazon Lambda to create a contact form'
 date: 2017-08-28
 excerpt: ' While Hurricane Harvey rains down on Texas I decided this would be a prefect time to build a contact form for a static HTML page that I need. At first I looked at services like FormKeep to send emails but I felt like it w...'

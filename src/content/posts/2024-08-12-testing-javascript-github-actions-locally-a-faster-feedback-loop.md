@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Testing JavaScript GitHub Actions Locally: A Faster Feedback Loop'
 date: 2024-08-12 00:53 -0500
 excerpt: 'Learn how to test GitHub Actions locally using act, reducing development cycle time from minutes to seconds.'

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Hello Tornadic'
 date: 2025-05-27 1:00 -0500
 excerpt: >

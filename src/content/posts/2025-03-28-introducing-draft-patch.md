@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Introducing DraftPatch: A macOS App for Quick AI-Powered Editing'
 date: 2025-03-28 12:00 -0500
 excerpt: >

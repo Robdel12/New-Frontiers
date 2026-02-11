@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Sneaky Case Sensitivity Bug: How I Lost an Hour Renaming Files'
 date: 2024-07-15 18:11 -0500
 excerpt: 'A costly debugging lesson about case sensitivity differences between macOS and Git that led to deployment failures.'

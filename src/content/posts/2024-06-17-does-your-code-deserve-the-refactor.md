@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Does your code deserve the refactor?
 date: 2024-06-17 02:15 -0500
 excerpt: "We often hear the story of someone building something quickly that becomes popular, only to be embarrassed by the source code's appearance. More often than not, these are small side projects designed to solve a problem..."

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'New Percy SDK: End-to-end visual testing with TestCafe'
 date: 2019-09-05
 excerpt: 'We’re excited to introduce our new TestCafe integration!  TestCafe, the node.js end-to-end testing tool, provides a quick, free, and open-source way to test your web applications across browsers. As it’s gained popularity...'

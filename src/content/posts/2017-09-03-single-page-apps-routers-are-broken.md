@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Single Page Apps routers are broken'
 date: 2017-09-03
 excerpt: ' Currently, every major Single Page App’s (SPA) router is broken the second you install it (Ember, Angular, React/Preact/Vue.js, etc). Before we go much further, I want to make sure you know I’m not hating on SPAs. The opp...'

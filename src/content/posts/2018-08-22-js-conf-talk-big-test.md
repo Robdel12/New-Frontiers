@@ -1,7 +1,6 @@
 ---
 title: 'JSConf 2018: Testing Big in JavaScript'
 date: 2018-08-22
-layout: post
 excerpt: 'My JSConf talk about BigTest - a framework that makes UI testing fast, robust, and maintainable by challenging traditional testing assumptions.'
 ---
 

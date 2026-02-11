@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Streamlined Screenshot Reviews with GitHub Rich Diffs"
 date: 2024-05-25
 excerpt: "When you're working on UI testing, reviewing screenshots as part of a (PR) can be a

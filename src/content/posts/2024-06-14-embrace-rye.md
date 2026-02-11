@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Embracing RYE: Repeat Yourself Enough"
 date: 2024-06-14
 excerpt: "DRY (Don’t Repeat Yourself) is often seen as a golden rule. However, adhering too strictly

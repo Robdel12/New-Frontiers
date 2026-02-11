@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Branch previews with Google App Engine
 date: 2024-06-29 20:16 -0500
 excerpt: 'We needed a way to deploy arbitrary branches to different environments via GitHub actions. We use Google App Engine to host our app.'

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introducing the Ghost Digest Generator Action
 date: 2024-08-11 02:17 -0500
 ---

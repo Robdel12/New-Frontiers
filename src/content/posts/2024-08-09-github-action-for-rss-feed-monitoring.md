@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'GitHub Action for Monitoring RSS Feeds'
 date: 2024-08-09 08:00 -0500
 excerpt: 'A simple GitHub Action that monitors RSS feeds and sends email notifications when new articles are published.'

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Bronny James: A Victim of His Father’s Success'
 date: 2024-07-07 13:09 -0500
 excerpt: 'Bronny James’ selection by the Lakers might seem like nepotism, but using the 55th pick, which rarely yields successful players, makes it an okay move. However, his father’s fame brings undue pressure and media scrutiny, impacting Bronny’s early career.'

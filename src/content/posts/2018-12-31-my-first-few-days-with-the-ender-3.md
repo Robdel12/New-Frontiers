@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'My first few days with the Ender 3'
 date: 2018-12-31
 excerpt: ' It’s been a little while since I’ve written a non-technical blog post (or even a post that’s not related to work). They’re much easier to write&nbsp;😆  My amazing wife bought me a 3D printer for Christmas this year (along...'

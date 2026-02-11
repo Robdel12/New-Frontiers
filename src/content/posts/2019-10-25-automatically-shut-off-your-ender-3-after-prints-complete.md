@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Automatically shut off your Ender 3 after prints complete'
 date: 2019-10-25
 excerpt: ' I recently have been running longer prints that sometimes finish in the middle of the night (or day when I’m not around). Sometimes these prints would finish at 2am and I would hate for the printer to be left on until I w...'

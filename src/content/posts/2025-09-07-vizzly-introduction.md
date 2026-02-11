@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Vizzly vs. The Visual Testing Status Quo
 date: 2025-09-07 0:01 -0500
 excerpt:
