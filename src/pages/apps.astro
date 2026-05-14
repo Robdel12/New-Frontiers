@@ -1,54 +1,68 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
+
+let apps = [
+  {
+    name: 'Vizzly',
+    url: 'https://vizzly.dev',
+    label: 'Developer Tools',
+    description:
+      'Visual regression testing built for speed and developer experience. Capture real screenshots from your tests, review UI changes with your team, and catch visual bugs before they ship.',
+  },
+  {
+    name: 'OrbitDock',
+    url: 'https://orbitdock.dev',
+    label: 'AI Workflow',
+    description:
+      'Mission control for AI coding agents across macOS and iOS. Monitor Claude Code and Codex sessions, review work in progress, and keep agent-heavy development organized.',
+  },
+  {
+    name: 'Tornadic',
+    url: 'https://tornadic.net',
+    label: 'Weather Data',
+    description:
+      'A tornado history, mapping, and evidence platform that brings official records, DAT surveys, radar, photos, and community contributions into one place.',
+  },
+  {
+    name: 'MoonBun',
+    url: 'https://moonbun.app',
+    label: 'iOS App',
+    description:
+      'Care management for pet rabbits, built around the real daily handoff: feeding, medications, grooming, weight, health notes, reminders, and boarding care.',
+  },
+  {
+    name: 'Snoot',
+    url: 'https://snoot.support',
+    label: 'Customer Support',
+    description:
+      'Real-time customer chat built with Phoenix LiveView. A fast embeddable widget, team inbox, and conversation management for support teams.',
+  },
+]
 ---
 
-<BaseLayout title="Apps">
+<BaseLayout
+  title="Apps"
+  description="Software and apps built by Robert DeLuca, including Vizzly, OrbitDock, Tornadic, MoonBun, and Snoot."
+>
   <h1>Rob The Builder</h1>
+  <p class="apps-intro">
+    A living shelf of the products and apps I'm actively building.
+  </p>
 
   <div class="apps-list">
-    <div class="app-card">
-      <h2>
-        <a href="https://vizzly.dev" target="_blank" rel="noopener">Vizzly</a>
-      </h2>
-      <p>
-        A visual review and design-development collaboration platform for visual
-        testing with real screenshots, team-based pricing, and built-in
-        collaboration features.
-      </p>
-    </div>
-    <div class="app-card">
-      <h2>
-        <a
-          href="https://github.com/Robdel12/DraftPatch"
-          target="_blank"
-          rel="noopener">DraftPatch</a
-        >
-      </h2>
-      <p>
-        A macOS app using Swift to interact seamlessly with Large Language
-        Models (LLMs) and Model Context Protocols (MCPs) directly from the
-        desktop.
-      </p>
-    </div>
-    <div class="app-card">
-      <h2>
-        <a href="https://pitstop.app" target="_blank" rel="noopener"
-          >Pitstop.app</a
-        >
-      </h2>
-      <p>
-        A side project consisting of a website and iOS app designed to track
-        vehicle telemetry and manage maintenance efficiently.
-      </p>
-    </div>
-    <div class="app-card">
-      <h2>
-        <a href="https://tornadic.net" target="_blank" rel="noopener"
-          >Tornadic.net</a
-        >
-      </h2>
-      <p>A crowd-sourced tornado database application.</p>
-    </div>
+    {
+      apps.map((app) => (
+        <article class="app-card">
+          <div class="app-label">{app.label}</div>
+          <h2>
+            <a href={app.url} target="_blank" rel="noopener">
+              {app.name}
+            </a>
+          </h2>
+          <p>{app.description}</p>
+        </article>
+      ))
+    }
   </div>
 
   <p class="more-software-note">
@@ -59,65 +73,3 @@ import BaseLayout from '../layouts/BaseLayout.astro'
     for more software I've written 👀
   </p>
 </BaseLayout>
-
-<style>
-  .apps-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  .app {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-    padding: 1.5rem;
-    border: 1px solid #e1e5e9;
-    border-radius: 8px;
-    background: #fafbfc;
-  }
-
-  .app img {
-    width: 80px;
-    height: 80px;
-    border-radius: 12px;
-    flex-shrink: 0;
-  }
-
-  .app-info h2 {
-    margin: 0 0 0.5rem 0;
-    color: #24292f;
-  }
-
-  .app-info p {
-    margin: 0 0 1rem 0;
-    color: #656d76;
-    line-height: 1.5;
-  }
-
-  .app-link {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: #0969da;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 500;
-  }
-
-  .app-link:hover {
-    background: #0550ae;
-  }
-
-  @media (max-width: 768px) {
-    .app {
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .app img {
-      align-self: center;
-    }
-  }
-</style>

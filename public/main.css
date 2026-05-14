@@ -296,28 +296,55 @@ body {
 }
 
 /* Apps page */
+.apps-intro {
+  color: #666;
+  font-size: 1.05rem;
+  margin-top: 0.5rem;
+  max-width: 42rem;
+}
+
 .apps-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1rem;
+  margin-top: 2.25rem;
 }
 
 .app-card {
-  border: 1px solid #e0e0e0;
+  align-content: start;
+  border: 1px solid #e5e7eb;
   border-radius: 8px;
-  padding: 1.5rem;
-  background: #fff;
-  transition: box-shadow 0.2s ease;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 1)),
+    #fff;
+  display: grid;
+  gap: 0.9rem;
+  min-height: 100%;
+  padding: 1.4rem;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
 .app-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 110, 255, 0.25);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  transform: translateY(-2px);
+}
+
+.app-label {
+  color: #b45309;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .app-card h2 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .app-card a {
@@ -329,11 +356,28 @@ body {
   text-decoration: underline;
 }
 
+.app-card p {
+  color: #4b5563;
+  line-height: 1.65;
+  margin: 0;
+}
+
 .more-software-note {
-  margin-top: 2.5rem;
+  margin: 2.5rem 0 4rem;
   font-size: 0.95rem;
   color: #666;
   font-style: italic;
+}
+
+.more-software-note a {
+  color: #006eff;
+  font-weight: 700;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.12em;
+}
+
+.more-software-note a:hover {
+  color: #0056cc;
 }
 
 /* Desktop Enhancement - Min-width Media Queries */
@@ -726,13 +770,34 @@ body {
 }
 
 .dark .app-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-color: rgba(251, 191, 36, 0.35);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark .apps-intro {
+  color: #94a3b8;
+}
+
+.dark .app-label {
+  color: #fbbf24;
 }
 
 .dark .app-card a {
   color: #60a5fa;
 }
 
+.dark .app-card p {
+  color: #cbd5e1;
+}
+
 .dark .more-software-note {
   color: #94a3b8;
+}
+
+.dark .more-software-note a {
+  color: #fbbf24;
+}
+
+.dark .more-software-note a:hover {
+  color: #fde047;
 }
